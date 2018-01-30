@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #1C2C56;">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>iPad App</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.3272388,0 L59.6727612,0 C68.6900462,0 76,7.31090693 76,16.3272388 L76,59.6727612 C76,68.6900462 68.6890931,76 59.6727612,76 L16.3272388,76 C7.30995379,76 0,68.6890931 0,59.6727612 L0,16.3272388 C0,7.30995379 7.31090693,0 16.3272388,0 Z" id="path-1"></path>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="123.970515%" id="radialGradient-3">
+            <stop stop-color="#FFCB00" offset="0%"></stop>
+            <stop stop-color="#FFC100" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-App">
+            <g id="Icon">
+                <g id="Gradient" stroke-width="1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect fill="url(#radialGradient-3)" x="0" y="0" width="76" height="76"></rect>
+                </g>
+                <g id="Logo" transform="translate(6.828125, 10.093750)" fill="#3E81C4">
+                    <path d="M36.5597826,29.1173396 L36.5597826,43.0385757 L25.4402174,43.0385757 L25.4402174,29.1316465 C12.9219751,29.1440363 1.80764262,29.139447 1.68478261,29.0801187 C1.68478261,13.1113869 14.8096525,0.166172107 31,0.166172107 C47.1903475,0.166172107 60.3152174,13.1113869 60.3152174,29.0801187 C60.2645538,29.0730636 49.1188231,29.0981808 36.5597826,29.1173396 Z" id="Combined-Shape"></path>
+                    <ellipse id="Oval-2" cx="13.9836957" cy="47.1928783" rx="8.76086957" ry="8.64094955"></ellipse>
+                    <ellipse id="Oval-2-Copy" cx="48.1847826" cy="47.1928783" rx="8.76086957" ry="8.64094955"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

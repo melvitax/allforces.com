@@ -1,0 +1,8 @@
+{
+    "icons": [{
+        "src": "i/ms-icon-310-310.png",
+        "sizes": "310x310",
+        "type": "image/png"
+    }],
+    "start_url": "/"
+}

@@ -1,0 +1,377 @@
+/* 	Reset Styles =========================== */
+
+@import url("reset.css");
+
+
+/* 	Fonts  =========================== */
+
+/*@import url("ProximaNova-Sbold-webfont.css");*/
+
+
+
+
+/* 	General  =========================== */
+body { 
+	background: #E3EFEF ; 
+	overflow-x: hidden;
+	color: #38414c;
+	}
+a:link, a:visited { 
+	color: #0071C2; 
+	}
+a:hover { 
+	color: #000 
+	}
+	
+#entry-data {
+	display: none;
+}
+
+/* 	Layout  =========================== */
+
+
+/* Global Nav */
+#globalnav {
+	padding: 10px;
+}
+#globalnav ul {
+	max-width: 1021px;
+	height: 47px;
+	padding: 0;
+	margin: 0 auto;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	overflow: hidden;
+	background: #515151 ;
+}
+#globalnav li {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: #515151 ;
+	height: 47px;
+	border-right: 1px solid #2d2d2d;
+	border-left: 1px solid #636161;
+	font-size: 14px;
+	font-weight: 100;
+}
+#globalnav li:first-child {
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+#globalnav li a {
+	display: block;
+	color: white;
+	text-shadow: 0px -1px 3px black;
+	height: 47px;
+	padding: 14px 0 0 60px
+}
+#globalnav li:hover {
+	background: #1c1c1c;
+}
+#globalnav li#nav-allforces a{
+	width: 104px;
+	height: 0;
+	padding: 47px 0 0 0;
+	overflow: hidden;
+	background: url('../i/nav-allforces.png') no-repeat 20px 8px;
+}
+
+#nav-nota a {
+	background: url('../i/nav-nota.png') no-repeat 20px 8px;
+	width: 55px;
+}
+
+#nav-thinkertoy a {
+	background: url('../i/nav-thinkertoy.png') no-repeat 20px 8px;
+	width: 100px;
+}
+#nav-thirtyaday a {
+	background: url('../i/nav-thirtyaday.png') no-repeat 20px 8px;
+	width: 90px;
+}
+#nav-margana a {
+	background: url('../i/nav-margana.png') no-repeat 20px 8px;
+	width: 90px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+    #globalnav li a {
+	    background-size: 31px 31px;
+    }
+	#globalnav li#nav-allforces a{
+		background-image: url('../i/nav-allforces-2x.png');
+		background-size: 69px 32px;
+	}
+	#nav-nota a {
+		background-image: url('../i/nav-nota-2x.png');
+	}
+	#nav-thinkertoy a {
+		background-image: url('../i/nav-thinkertoy-2x.png');
+	}
+	#nav-thirtyaday a {
+		background-image: url('../i/nav-thirtyaday-2x.png');
+	}
+	#nav-margana a {
+		background-image: url('../i/nav-margana-2x.png');
+	}
+}
+
+
+/* */
+
+header, article, footer {
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 1021px;
+	margin: 0 auto;
+}
+
+.tagline {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 2em;
+	letter-spacing: 0.2em;
+}
+
+.socialBtn { 
+	display: -moz-inline-stack; 
+	display: inline-block; 
+	vertical-align: top; 
+	zoom: 1; 
+	*display: inline; 
+	padding: 0 3px; 
+}
+
+.description {
+	padding: 1em 2%
+}
+
+a.appstorelink {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin: 1em 0;
+	display: block;
+}
+a.appstorelink img {
+	vertical-align: middle;
+	margin-right: 30px;
+}
+a.appstorelink:link, a.appstorelink:visited {
+	color: #38414c
+}
+a.appstorelink:hover, a.appstorelink:active {
+	
+}
+
+.features.alternate {
+	background: white;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.info h1 {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+img.colors {
+	vertical-align: text-bottom;
+}
+
+.definitions {
+	text-align: left;
+	padding: 20px 0;
+}
+
+img.brain {
+	width: 48%;
+	height: auto;
+	margin-left: 2%;
+	display: inline-block; *display:inline; zoom: 1;
+	vertical-align: middle;
+}
+.definitions .info {
+	display: inline-block; *display:inline; zoom: 1;
+	vertical-align: middle;
+	width: 45%;
+	margin-left: 2%;
+}
+.definitions .info h1 {
+	text-align: left
+}
+.languages {
+	padding: 20px 0;
+}
+.language {
+	width: 19%;
+	min-width: 108px;
+	display: inline-block; *display:inline; zoom: 1;
+	color: #b3b3b3;
+}
+
+
+.languages .info {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 1em;
+}
+
+.gamecenter {
+	padding: 20px 0 0 0;
+}
+.gamecenter .info {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 1em;
+}
+img.ipads {
+	vertical-align: text-bottom;
+}
+
+.footer {
+	clear: both;
+	background: #333333;
+	color: #808080
+}
+.footer-container {
+	width: 98%;
+	margin: 0 auto;
+}
+.footer a:link, .footer a:visited {
+	color: #cccccc
+}
+.footer a:hover, .footer a:active {
+	color: white
+}
+
+.appstorebadge {
+	display: block;
+	margin: 0 auto;
+	height: 0;
+	overflow: hidden;
+	width: 142px;
+	padding-top: 42px;
+	background: url('../i/appstorebadge.png')
+}
+
+/* Big Images */
+@media screen and (max-width: 1021px) { 
+	img.colors, img.ipads {
+		width: 96%;
+		max-width:  intrinsic;
+		height: auto;
+		margin: 0 2%;
+	}
+}
+
+
+/* Phone */
+@media screen and (max-width: 568px) { 
+	/* General */
+	.wrapper {
+		width: 100%;
+    }
+    /* Global Nav */
+    #globalnav {
+	    padding: 0;
+	    position: fixed;
+	    width: 100%
+    }
+    #globalnav ul {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+	#globalnav li:first-child {
+		-webkit-border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	#globalnav li:last-child {
+		-webkit-border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	#globalnav li#nav-allforces a {
+		width: 84px;
+		background-position:  10px 8px;
+	}
+	#globalnav li#nav-nota a, #globalnav li#nav-thinkertoy a, #globalnav li#nav-thirtyaday a, #globalnav li#nav-margana a {
+		width: 50px;
+		padding: 47px 0 0 0;
+		background-position:  10px 8px;
+	}
+	
+	/*   */
+	
+	.tagline {
+		font-size: 1.3em;
+		padding: 100px 5px 0 5px;
+	}
+	
+	
+	a.appstorelink {
+		text-align: center
+	}
+	a.appstorelink img {
+		display: block;;
+		margin: 0.5em auto
+	}
+	img.brain {
+		width: 96%;
+		max-width: intrinsic;
+		height: auto;
+		margin: 0 2%;
+	}
+	.game {
+		width: 96%;
+		max-width: intrinsic;
+		height: auto;
+		margin: 0 2%;
+		float: none;
+	}
+	.game img {
+		width: 100%;
+		height: auto;
+	}
+	.definitions .info, .gamecenter .info, .languages .info {
+		width: 96%;
+		margin: 0 2%;
+		padding: 1em 0;;
+	}
+}
+
+
+/* Phablet */
+@media screen and (min-width : 568px) and (max-width : 768px)  { 
+	
+}
+
+
+/* Tablet */
+@media screen and (min-width : 768px)   { 
+	
+}
