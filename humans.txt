@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Melvin Rivera -- UX Product Designer & Developer -- @melvitax
 
 # THANKS
 
-    <name>
+    HTML5 Boilerplate
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    GitHub Pages, jQuery, Modernizr, Normalize.css
