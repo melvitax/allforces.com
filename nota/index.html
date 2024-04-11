@@ -1,52 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+id: nota
+appStoreURL: http://appstore.com/allforces/nota
+promo: http://allforces.com/assets/images/nota/nota-promo.jpg
+title: Nota - A piano music app for the iPhone
+description: "An indispensible music learning app. Nota's impressive collection of tools like a chords browser, a scales browser, a searchable reference library and a notes quiz."
+---
 
-    <title>Nota - A piano music app for the iPhone</title>
-    <meta name="description" content="An indispensible music learning app. Nota's impressive collection of tools includes 152 chords, 167 scales , 133 searchable reference items and a notes quiz.">
-    <meta name="keywords" content="">
+<div class="no-observer">
 
-    <!-- Social: Facebook -->
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="http://allforces.com/nota/assets/images/socialimage.jpg" />
-    <!-- Social: Twitter -->
-    <meta name="twitter:card" content=" site.socialImage " />
-    <meta name="twitter:title" content="Nota - A piano music app for the iPhone" />
-    <meta name="twitter:description" content="An indispensible music learning app. Nota's impressive collection of tools includes 152 chords, 167 scales , 133 searchable reference items and a notes quiz." />
-    <meta name="twitter:image" content="http://allforces.com/nota/assets/images/socialimage.jpg" />
-    <!-- Social: Shared -->
-    <meta property="og:url" content="">
-    <meta property="og:title" content="Nota - A piano music app for the iPhone" />
-    <meta property="og:description" content="An indispensible music learning app. Nota's impressive collection of tools includes 152 chords, 167 scales , 133 searchable reference items and a notes quiz." />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <!-- Icons -->
-    <link rel="icon" href="./favicon.ico" sizes="16x16 32x32"> <!-- Legacy -->
-    <link rel="icon" href="./icon-128.svg" type="image/svg+xml"><!-- SVG -->
-    <link rel="apple-touch-icon" href="./icon-180.png"><!-- Apple -->
-    <link rel="manifest" href="./manifest.webmanifest"><!-- Android -->
-
-  </head>
-  
-	<body class="layout-default">
-		<header class="header pb-4">
-    <nav class="nav">
-        <div class="container">
-            <div class="text-center pt-2">
-                <h1 class="pt-5 fw-light text-center fs-3"><img src="./icon-128.svg" width="64" height="64" alt="Mota app icon" />&nbsp;&nbsp;<strong class="fw-bold">Nota</strong>&nbsp;&nbsp;Music Learning App</h1> 
-            </div>
-        </div>
-    </nav>
-</header>
-
-		<div class="no-observer">
-
-  <div class="container px-4 py-2 bg-light rounded">
+  <div class="container px-4 py-2 bg-light rounded mt-5">
     <div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div>
@@ -71,7 +34,7 @@
   </div>
 
   <div class="wrapper animate alt-row">
-    <div class="container">
+    <div class="container text-center">
       <h2 class="text-center fs-1 fw-light text-uppercase mt-5">Featured by <strong class="fw-bold">Apple</strong> on an iPad commercial</h2>
     </div>
   </div>
@@ -81,14 +44,15 @@
           <div class="row align-items-center py-5">
               <div class="col-12 col-md-6 p-5 text-end">
                   <div class="d-inline-block bg-dark p-3 rounded-5">
-                      <img src="./assets/images/nota-piano.png" class="rounded-5" alt="Nota Music App - Piano" width="295" height="640">
+                      <img src="/assets/images/nota/nota-piano.png" class="rounded-5" alt="Nota Music App - Piano" width="295" height="640">
                   </div>
               </div>
               <div class="col-12 col-md-6 p-5">
-                <h2 class="py-2 fw-bold">DOWNLOAD THE FREE APP</h2>
+                <img src="/assets/images/nota/icon-128.svg" alt="app icon" width="128" height="128" />
+                <h2 class="py-2 fw-bold">Nota</h2>
                 <div class="callout">
-    <a class="store-badge badge-app-store" href="http://appstore.com/allforces/nota"">Download on the App Store</a>
-</div>
+                  <a class="store-badge badge-app-store" href="{{ page.appStoreURL }}">Download on the App Store</a>
+                </div>
                 <p class="py-2">Improve your music knowledge with Nota's impressive collection of piano tools. Browse or play any chord or scale in any key. Practice your skills with the notes quiz and look up any music symbol in the reference library.</p>
               </div>
           </div>
@@ -100,7 +64,7 @@
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div class="bg-body-secondary rounded p-2 me-3">
-          <img src="./assets/images/icon-piano.svg" alt="icon for piano" width="32" height="32" />
+          <img src="/assets/images/nota/icon-piano.svg" alt="icon for piano" width="32" height="32" />
         </div>
         <div>
           <h5 class="fs-2 text-body-emphasis">Piano</h5>
@@ -109,7 +73,7 @@
       </div>
       <div class="col d-flex align-items-start">
         <div class="bg-body-secondary rounded p-2 me-3">
-          <img src="./assets/images/icon-chords.svg" alt="icon for chords" width="32" height="32" />
+          <img src="/assets/images/nota/icon-chords.svg" alt="icon for chords" width="32" height="32" />
         </div>
         <div>
           <h5 class="fs-2 text-body-emphasis">Chords Browser</h5>
@@ -118,7 +82,7 @@
       </div>
       <div class="col d-flex align-items-start">
         <div class="bg-body-secondary rounded p-2 me-3">
-          <img src="./assets/images/icon-scales.svg" alt="icon for scales" width="32" height="32" />
+          <img src="/assets/images/nota/icon-scales.svg" alt="icon for scales" width="32" height="32" />
         </div>
         <div>
           <h5 class="fs-2 text-body-emphasis">Scales Browser</h5>
@@ -128,7 +92,7 @@
   
       <div class="col d-flex align-items-start">
         <div class="bg-body-secondary rounded p-2 me-3">
-          <img src="./assets/images/icon-quiz.svg" alt="icon for quiz" width="32" height="32" />
+          <img src="/assets/images/nota/icon-quiz.svg" alt="icon for quiz" width="32" height="32" />
         </div>
         <div>
           <h5 class="fs-2 text-body-emphasis">Quiz</h5>
@@ -137,7 +101,7 @@
       </div>
       <div class="col d-flex align-items-start">
         <div class="bg-body-secondary rounded p-2 me-3">
-          <img src="./assets/images/icon-reference.svg" alt="icon for reference library" width="32" height="32" />
+          <img src="/assets/images/nota/icon-reference.svg" alt="icon for reference library" width="32" height="32" />
         </div>
         <div>
           <h5 class="fs-2 text-body-emphasis">Reference Library</h5>
@@ -146,7 +110,7 @@
       </div>
       <div class="col d-flex align-items-start">
         <div class="bg-body-secondary rounded p-2 me-3">
-          <img src="./assets/images/icon-options.svg" alt="icon for options" width="32" height="32" />
+          <img src="/assets/images/nota/icon-options.svg" alt="icon for options" width="32" height="32" />
         </div>
         <div>
           <h5 class="fs-2 text-body-emphasis">Extra Options</h5>
@@ -166,10 +130,10 @@
               <div class="col-12 col-md-6 p-5">
                 <div class="position-relative">
                   <div class="d-inline-block bg-dark p-3 rounded-5 z-1">
-                    <img src="./assets/images/nota-chords.jpg" class="rounded-5" alt="Nota Music App - Chords" width="295" height="640">
+                    <img src="/assets/images/nota/nota-chords.jpg" class="rounded-5" alt="Nota Music App - Chords" width="295" height="640">
                   </div>
                   <div class="d-inline-block bg-dark p-3 rounded-5 z-0 position-absolute start-50">
-                    <img src="./assets/images/nota-chords-browse.jpg" alt="Nota Music App - Chord Browser"  width="295" height="640">
+                    <img src="/assets/images/nota/nota-chords-browse.jpg" alt="Nota Music App - Chord Browser"  width="295" height="640">
                   </div>
                 </div>
               </div>
@@ -182,7 +146,7 @@
           <div class="row align-items-center py-5">
               <div class="col-12 col-md-6 p-5 text-end">
                   <div class="d-inline-block bg-dark p-3 rounded-5">
-                      <img src="./assets/images/nota-scales.jpg" class="rounded-5" alt="Nota Music App - Scales"  width="295" height="640">
+                      <img src="/assets/images/nota/nota-scales.jpg" class="rounded-5" alt="Nota Music App - Scales"  width="295" height="640">
                   </div>
               </div>
               <div class="col-12 col-md-6 p-5">
@@ -203,10 +167,10 @@
               <div class="col-12 col-md-6 p-5">
                 <div class="position-relative">
                   <div class="d-inline-block bg-dark p-3 rounded-5 z-1">
-                    <img src="./assets/images/nota-quiz-intro.jpg" class="rounded-5" alt="Nota Music App - Quiz Intro" width="295" height="640">
+                    <img src="/assets/images/nota/nota-quiz-intro.jpg" class="rounded-5" alt="Nota Music App - Quiz Intro" width="295" height="640">
                   </div>
                   <div class="d-inline-block bg-dark p-3 rounded-5 z-0 position-absolute start-50">
-                    <img src="./assets/images/nota-quiz.jpg" alt="Nota Music App - Quiz"  width="295" height="640">
+                    <img src="/assets/images/nota/nota-quiz.jpg" alt="Nota Music App - Quiz"  width="295" height="640">
                   </div>
                 </div>
               </div>
@@ -219,7 +183,7 @@
           <div class="row align-items-center py-5 ">
               <div class="col-12 col-md-6 p-5 text-end">
                   <div class="d-inline-block bg-dark p-3 rounded-5">
-                      <img src="./assets/images/nota-reference.jpg" class="rounded-5" alt="Nota Music App - Reference"  width="295" height="640">
+                      <img src="/assets/images/nota/nota-reference.jpg" class="rounded-5" alt="Nota Music App - Reference"  width="295" height="640">
                   </div>
               </div>
               <div class="col-12 col-md-6 p-5">
@@ -244,41 +208,40 @@
       </div>
   </div>
 
-  
+  <div class="wrapper animate alt-row  p-3">
+    
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-md-6">
+                <h2 class="text-center fs-1 fw-light text-uppercase fw-bold mt-5">In The Press</h2>
+                <ul>
+				
+                  <li><a href="http://www.youtube.com/watch?v=exlQgRYOR-8">YouTube</a> IAMM video review of Nota for iPad</li>
+                  <li><a href="http://appadvice.com/appguides/show/music-theory-apps">AppAdvice.com</a>: "Nota is by far the most elegant and advanced music theory app available"</li>
+                  <li><strong><a href="http://www.amazon.com/exec/obidos/ASIN/1449381650/allforces-20/ref=nosim/">Tapworthy</a></strong>: Featured in the book <em>Tapworthy: Designing Great iPhone Apps</em></li>
+                  <li><strong>Apple</strong>: Featured in an Apple TV commercial</li>
+                  <li><strong><a href="https://www.cnet.com/pictures/nota-app-for-ipad-photos/">CNet News</a></strong>: &#8220;Piano app for iPad proves screen size matters...&#8221;</li>
+                  <li><strong><a href="http://techinmusiced.wordpress.com/2010/03/25/nota-iphone-app-for-music-education/">Technology in Music Education</a></strong>: &#8220;one of the best applications available... this application is worth the price...&#8221;</li>
+                  <li><strong><a href="http://gizmodo.com/5497767/this-weeks-best-iphone-apps/">Gizmodo Read</a></strong>: This week's Best iPhone Apps</li>
+                  <li><strong>App Store</strong>: Featured under New and Noteworthy and Back To School featured apps</li>
+                  <li><strong><a href="http://app.itize.us/apps/nota">app.itize.us</a></strong>: &#8220;simple and easy to use app&#8221;</li>	
+                  <li><strong>Smoking Apples</strong>: &#8220;a beautiful app with tasty bits of sensible UI&#8221;</li>	
+                  <li><strong><a href="http://www.appsafari.com/music/10467/nota/">App Safari Review</a></strong>: &#8220;a comprehensive resource for fundamental music theory&#8221;</li>	
+                  <li><strong>The Unofficial Apple Weblog</strong>: &#8220;the design of the application is very polished and definitely a pleasure to use&#8221;</li>	
+                  <li><strong>The Apple Weblog</strong>: Pick of The Week, &#8220;a great investment for professional musicians and students alike.&#8221;</li>	
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
   <div class="wrapper animate alt-row">
-    <div class="container"><div class="callout">
-    <a class="store-badge badge-app-store" href="http://appstore.com/allforces/nota"">Download on the App Store</a>
-</div></div>
+    <div class="container">
+      <div class="callout">
+        <a class="store-badge badge-app-store" href="{{ page.appStoreURL }}">Download on the App Store</a>
+    </div>
+    </div>
   </div>
 
 </div>
-		<footer class="text-muted w-100 py-5">
-    <div class="container">
-      <hr />
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>Other apps by  <a href="http://allforces.com">All Forces</a></p>
-    </div>
-  </footer>
-
-		<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<!-- intersection-observer -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
-<!-- VideoJS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.18.1/video.min.js" integrity="sha512-ihOGFnO6EsSOoAW2wY28HdHiCuc9SYCt4b2yr3UcjLGySDTELNwJvDteq//Sr4BmvVoNRsPpSKsTMd4roJnQtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js" integrity="sha512-mF+XuiEvJq707N/B9Fm/fI2wgMcWuFLsoztIp0UzEKgHCZgczbYpO2+Vq2TEi0LmE4crVj2r8AYru7X5QjVotw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/d4493c788f.js" crossorigin="anonymous"></script>
-<!-- Main -->
-<script async src="/assets/js/main.js"></script>
-<!-- AppStoreAffilate -->
-<script type='text/javascript'>
-    var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '10ltcZ']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
-</script>
-
-	</body>
-</html>

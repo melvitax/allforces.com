@@ -1,0 +1,45 @@
+:root {
+    color-scheme: light dark;
+}
+body {
+    background-color: #b3d4fc;
+    color: white;
+    height: 100%;
+}
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+
+
+.apps a img {
+    transition: all .2s ease-in-out;
+    box-shadow: 0 5px 20px #6d6d6d75 ;
+}
+.apps a:hover img {
+    transform: scale(1.1); 
+    box-shadow: 0 5px 40px #474747d5 ;
+}
+
+.apps col:hover {
+    color: black;
+}
+
+
+/*** CALLOUT ****/
+a.store-badge {
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-right: 0.5em;
+    width: 122px;
+    padding-top: 36px;
+    background-size: 122px 36px;
+}
+.badge-app-store {
+    background-image: url('../images/app-store-badge-o.svg');
+    background-image: url('../images/app-store-badge.svg');
+}
+.badge-app-store:hover {
+    background-image: url('../images/app-store-badge-o.svg');
+}
