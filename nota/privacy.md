@@ -5,7 +5,7 @@ title: Privacy Policy - Nota
 description: "Privacy policy for the Nota application"
 ---
 
-<div class="wrapper animate alt-row">
+<div class="wrapper">
 
 **Privacy Policy**
 
