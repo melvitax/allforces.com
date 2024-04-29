@@ -7,8 +7,10 @@
 	{% include head.html %}
 	<body class="layout-{{ page.layout }}">
 		{% include header.html %}
-		<div class="container-sm py-5">
-            {{ content }}
+		<div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 co">{{ content }}</div>
+            </div>
         </div>
 		{% include footer.html %}
 		{% include scripts.html %}
