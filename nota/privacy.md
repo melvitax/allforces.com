@@ -5,7 +5,7 @@ title: Privacy Policy - Nota
 description: "Privacy policy for the Nota application"
 ---
 
-*Privacy Policy*
+# Privacy Policy
 
 This privacy policy applies to the Nota app (hereby referred to as "Application") for mobile devices that was created by Melvin Rivera, DBA All Forces (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
 
